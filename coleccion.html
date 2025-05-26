@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cssMainPage.css">
+</head>
+<body>
+    <header>
+    <h1>GMeS</h1>
+    <nav class="nav-header">
+      <a href="index.html" class="btnHeaer">Inicio</a>
+      <a href="coleccion.html" class="btnHeaer">Contacto</a>
+    </nav>
+    </header>
+
+    <main style="justify-content: start;">
+        <section id="seccionMuestraEqipos">
+            <div>
+
+            </div>
+        </section>
+        <section id="seccionTablaColeccion">
+            <table>
+                <thead>
+                    <tr>
+                    <th>Fecha</th>
+                    <th>Direcciones</th>
+                    <th>Equipo Rojo</th>
+                    <th>Equipo Azul</th>
+                    <th>Campeonato</th>
+                    <th>Año</th>
+                    </tr>
+                </thead>
+                <tbody id="tablaEnfrentamientos"></tbody>
+            </table>
+        </section>
+
+    </main>
+        <script src="js/datosColeccion.js"></script>
+        <script>
+            const tbody = document.getElementById('tablaEnfrentamientos');
+            enfrentamientos.forEach(({fecha, direccion, equipoRojo, equipoAzul, campeonatoNombre, campeonatoAnyo}) => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `<td>${fecha}</td><td>${direccion}</td><td>${equipoRojo}</td><td>${equipoAzul}</td><td>${campeonatoNombre}</td><td>${campeonatoAnyo}</td>`;
+                tbody.appendChild(tr);
+            });
+             const muestraEquipos = document.getElementById('seccionMuestraEqipos');
+            equipos.forEach(({uuid}) => {
+                const div = document.createElement('div');
+                div.innerHTML = `<img src="imagenes/${uuid}.png" alt="Imagen no encontrada">`;
+                muestraEquipos.appendChild(div);
+            });
+        </script>
+    <footer></footer>
+</body>
+</html>
