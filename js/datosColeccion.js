@@ -1,5 +1,13 @@
 const enfrentamientos = [
-    {fecha: 2302, direccion: "2222", equipoRojo: "sdds", EquipoAzul: "Ssss", campeonatoNombre: "222", campeonatoAnyo: 2000}
+     { fecha: "2021-10-28", direccion: "Hovet Arena", equipoRojo: "MadKoi", equipoAzul: "G2 Esports", campeonatoNombre: "PGL Major Stockholm", campeonatoAnyo: 2021 },
+  { fecha: "2021-10-30", direccion: "Hovet Arena", equipoRojo: "G2 Esports", equipoAzul: "NAVI", campeonatoNombre: "PGL Major Stockholm", campeonatoAnyo: 2021 },
+  { fecha: "2021-11-02", direccion: "Hovet Arena", equipoRojo: "NAVI", equipoAzul: "MadKoi", campeonatoNombre: "PGL Major Stockholm", campeonatoAnyo: 2021 },
+  { fecha: "2023-03-15", direccion: "Eden Arena", equipoRojo: "G2 Esports", equipoAzul: "MadKoi", campeonatoNombre: "ESL Pro League Season 17", campeonatoAnyo: 2023 },
+  { fecha: "2023-03-17", direccion: "Eden Arena", equipoRojo: "MadKoi", equipoAzul: "NAVI", campeonatoNombre: "ESL Pro League Season 17", campeonatoAnyo: 2023 },
+  { fecha: "2023-03-19", direccion: "Eden Arena", equipoRojo: "NAVI", equipoAzul: "G2 Esports", campeonatoNombre: "ESL Pro League Season 17", campeonatoAnyo: 2023 },
+  { fecha: "2022-12-14", direccion: "Etihad Arena", equipoRojo: "NAVI", equipoAzul: "MadKoi", campeonatoNombre: "BLAST Premier World Final", campeonatoAnyo: 2022 },
+  { fecha: "2022-12-16", direccion: "Etihad Arena", equipoRojo: "MadKoi", equipoAzul: "G2 Esports", campeonatoNombre: "BLAST Premier World Final", campeonatoAnyo: 2022 },
+  { fecha: "2022-12-18", direccion: "Etihad Arena", equipoRojo: "G2 Esports", equipoAzul: "NAVI", campeonatoNombre: "BLAST Premier World Final", campeonatoAnyo: 2022 }
 ]
 const equipos = [
     {uuid: '123e4567-e89b-12d3-a456-426614174000'},
