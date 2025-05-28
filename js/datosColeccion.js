@@ -1,7 +1,4 @@
 const enfrentamientos = [
-    { fecha: "2025-05-29", direccion: "Online", equipoRojo: "G2 Esports", equipoAzul: "Mad Lions", campeonatoNombre: "YGames PRO Series", campeonatoAnyo: 2025 },
-  { fecha: "2025-05-28", direccion: "Online", equipoRojo: "Mad Lions", equipoAzul: "NAVI", campeonatoNombre: "YGames PRO Series", campeonatoAnyo: 2025 },
-  { fecha: "2025-05-28", direccion: "Online", equipoRojo: "NAVI", equipoAzul: "G2 Esports", campeonatoNombre: "YGames PRO Series", campeonatoAnyo: 2025 },
     { fecha: "2023-03-15", direccion: "Eden Arena", equipoRojo: "G2 Esports", equipoAzul: "Mad Lions", campeonatoNombre: "ESL Pro League Season 17", campeonatoAnyo: 2023 },
   { fecha: "2023-03-17", direccion: "Eden Arena", equipoRojo: "Mad Lions", equipoAzul: "NAVI", campeonatoNombre: "ESL Pro League Season 17", campeonatoAnyo: 2023 },
   { fecha: "2023-03-19", direccion: "Eden Arena", equipoRojo: "NAVI", equipoAzul: "G2 Esports", campeonatoNombre: "ESL Pro League Season 17", campeonatoAnyo: 2023 },
