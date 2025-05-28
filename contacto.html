@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto</title>
+  <style>
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: rgba(255,255,255,0.5);
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #000000;
+      background-color: linear-gradient(90deg,rgba(24, 79, 30, 1) 10%, rgba(6, 20, 8, 1) 33%, rgba(0, 0, 0, 1) 69%, rgba(24, 79, 30, 1) 94%);
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      border: none;
+      color: white;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+   <link rel="stylesheet" href="cssMainPage.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="container">
+            <h2>Formulario de Contacto</h2>
+            <form id="formulario-contacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+  
+
+  <script>
+    document.getElementById("formulario-contacto").addEventListener("submit", function(event) {
+      event.preventDefault(); // Evita el envío real
+      alert("Mensaje enviado correctamente");
+      this.reset(); // Limpia el formulario
+    });
+  </script>
+</body>
+</html>
